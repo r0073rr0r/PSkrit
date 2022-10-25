@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: Skrit-r0073rr0r
+Version: 0.0.1
+Summary: Python Skrit
+Author-email: r0073rr0r <direktor@кгб.срб>
+Project-URL: Homepage, https://github.com/r0073rr0r/PSkrit
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# PSkrit
+
+### Debug
+```
+import skrit
+print(Skrit('rucka'))
+```
+
+***Output***:
+
+``
+ckarucka
+ ``

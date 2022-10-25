@@ -1,0 +1,17 @@
+[project]
+name = "Skrit_r0073rr0r"
+version = "0.0.1"
+authors = [
+  { name="r0073rr0r", email="direktor@кгб.срб" },
+]
+description = "Python Skrit"
+readme = "README.md"
+requires-python = ">=3.0"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/r0073rr0r/PSkrit"
