@@ -1,4 +1,4 @@
-class Skrit:
+class skrit:
     def __init__(self, input):
         self._SAMOGLASNICI = ['a','e','i','o','u','r','A','E','I','O','U','R']
         self._SERBIAN_LETTERS = [['l','j'],['n','j'],['s','h'],['d','j'],['d','z'],['d','ž'],'ž','']
