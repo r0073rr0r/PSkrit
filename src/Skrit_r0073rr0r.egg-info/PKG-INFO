@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: skrit-r0073rr0r
-Version: 0.1.2
+Version: 0.1.7
 Summary: Python Skrit
 Author-email: r0073rr0r <direktor@кгб.срб>
 Project-URL: Homepage, https://github.com/r0073rr0r/PSkrit
@@ -15,7 +15,16 @@ License-File: LICENSE
 
 ## Install
 
-```pip install -i https://test.pypi.org/simple/ skrit-r0073rr0r==0.1.2``` 
+```
+pip install -i https://test.pypi.org/simple/ skrit-r0073rr0r==0.1.7
+``` 
+
+### Features
+
+- [ ] Litrovacki
+- [ ] Utrovachki
+- [x] Satrovacki (need upgrade for samoglasnici and serbian letters)
+
 
 ### Example:
 
@@ -26,6 +35,4 @@ print(skrit.skrit().Satrovacki('rucka'))
 
 ***Output***:
 
-``
-ckaru
- ``
+`` ckaru ``

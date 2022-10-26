@@ -2,7 +2,16 @@
 
 ## Install
 
-```pip install -i https://test.pypi.org/simple/ skrit-r0073rr0r==0.1.2``` 
+```
+pip install -i https://test.pypi.org/simple/ skrit-r0073rr0r==0.1.7
+``` 
+
+### Features
+
+- [ ] Litrovacki
+- [ ] Utrovachki
+- [x] Satrovacki (need upgrade for samoglasnici and serbian letters)
+
 
 ### Example:
 
@@ -13,6 +22,4 @@ print(skrit.skrit().Satrovacki('rucka'))
 
 ***Output***:
 
-``
-ckaru
- ``
+`` ckaru ``

@@ -22,13 +22,7 @@ class skrit:
         hl = round(cl/2)
         par = self.isOdd(cl)
         #print({"L:": l, "Length": str(cl), "Half": str(hl),"Pair": str(par), "LastInHalf": str(l[hl])})
-        output = ""
-        while hl < cl:
-            output += input[hl]
-            hl += 1
-        hl = round(cl/2)
-        i = 0
-        while i < hl:
-            output += input[i]
-            i += 1
+        # @TODO samoglasnici and serbian letters to parse: pishtolj or pištolj as štoljpi or shtoljpi
+        output = input[hl:cl]
+        output += input[0:hl]
         return output
