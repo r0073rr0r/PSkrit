@@ -9,7 +9,7 @@ pip install skrit-r0073rr0r
 or
 
 ```
-pip install -i https://test.pypi.org/simple/ skrit-r0073rr0r==0.1.8
+pip install -i https://test.pypi.org/simple/ skrit-r0073rr0r==0.1.9
 ``` 
 
 ## Features
@@ -23,7 +23,7 @@ pip install -i https://test.pypi.org/simple/ skrit-r0073rr0r==0.1.8
 
 ```
 from skrit_r0073rr0r import skrit
-print(skrit.skrit().Satrovacki('rucka'))
+print(skrit.Skrit().satrovacki('rucka'))
 ```
 
 ***Output***:
