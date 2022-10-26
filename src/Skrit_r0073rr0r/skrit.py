@@ -1,10 +1,9 @@
 class skrit:
-    def __init__(self, input):
+    def __init__(self):
         self._SAMOGLASNICI = ['a','e','i','o','u','r','A','E','I','O','U','R']
         self._SERBIAN_LETTERS = [['l','j'],['n','j'],['s','h'],['d','j'],['d','z'],['d','ž'],'ž','']
-        self._input = input
-    def __call__(self):
-        self.Satrovacki(self._input)
+    def __call__(self,input):
+        return self.Satrovacki(input)
     def __str__(self) -> str:
         return str(self._output)
     def isOdd(self,x):
@@ -22,11 +21,12 @@ class skrit:
         cl = len(l)
         hl = round(cl/2)
         par = self.isOdd(cl)
-        #print({ "Length": str(cl), "Half": str(hl),"Pair": str(par), "LastInHalf": str(l[hl])})
+        #print({"L:": l, "Length": str(cl), "Half": str(hl),"Pair": str(par), "LastInHalf": str(l[hl])})
         output = ""
         while hl < cl:
             output += input[hl]
             hl += 1
+        hl = round(cl/2)
         i = 0
         while i < hl:
             output += input[i]
