@@ -3,7 +3,8 @@ class skrit:
         self._SAMOGLASNICI = ['a','e','i','o','u','r','A','E','I','O','U','R']
         self._SERBIAN_LETTERS = [['l','j'],['n','j'],['s','h'],['d','j'],['d','z'],['d','ž'],'ž','']
         self._input = input
-        self._output = self.Satrovacki(self._input)
+    def __call__(self):
+        self.Satrovacki(self._input)
     def __str__(self) -> str:
         return str(self._output)
     def isOdd(self,x):
