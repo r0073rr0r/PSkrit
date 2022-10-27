@@ -53,15 +53,15 @@ class Skrit:
         lista = list(input_string)
         cnt_list = len(lista)
         hlf_list = round(cnt_list/2)
-        pair = self.is_odd(cnt_list)
-        ima_dvoslov = self.is_serbian_letter(lista, hlf_list, cnt_list)
-        output = None
-        print({
-            "L:": lista, "Length": str(cnt_list),
-            "Half": str(hlf_list), "Pair": str(pair),
-            "LastInHalf": str(lista[hlf_list]),
-            "Dvoslov": ima_dvoslov
-        })
+        # pair = self.is_odd(cnt_list)
+        # ima_dvoslov = self.is_serbian_letter(lista, hlf_list, cnt_list)
+        # output = None
+        # print({
+        #     "L:": lista, "Length": str(cnt_list),
+        #     "Half": str(hlf_list), "Pair": str(pair),
+        #     "LastInHalf": str(lista[hlf_list]),
+        #     "Dvoslov": ima_dvoslov
+        # })
         #
         # @TODO samoglasnici and serbian letters to parse:
         #  pishtolj or pištolj as štoljpi or shtoljpi

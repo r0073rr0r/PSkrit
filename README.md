@@ -17,7 +17,7 @@ pip install skrit-r0073rr0r
 or
 
 ```
-pip install -i https://test.pypi.org/simple/ skrit-r0073rr0r==0.2.2
+pip install -i https://test.pypi.org/simple/ skrit-r0073rr0r==0.2.3
 ``` 
 
 ## Features
