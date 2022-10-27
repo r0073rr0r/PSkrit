@@ -1,6 +1,6 @@
 """Python Skrit module"""
 class Skrit:
-    """Python Skrit module INIT"""
+    """Python Skrit INIT"""
     def __init__(self):
         self._samoglasnici = [
             'a', 'e', 'i', 'o',
