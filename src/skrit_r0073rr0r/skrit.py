@@ -24,7 +24,7 @@ class Skrit:
 
     def is_odd(self, input_string):
         """Python Skrit check if letter is odd"""
-        return True if input_string % 2 else False
+        return input_string % 2
 
     def is_samoglasnik(self, input_string):
         """Python Skrit samoglasnik check"""
