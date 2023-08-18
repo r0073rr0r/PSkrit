@@ -2,8 +2,12 @@ LICENSE
 README.md
 pyproject.toml
 src/skrit_r0073rr0r/__init__.py
+src/skrit_r0073rr0r/litrovacki.py
+src/skrit_r0073rr0r/satrovacki.py
 src/skrit_r0073rr0r/skrit.py
+src/skrit_r0073rr0r/utrovacki.py
 src/skrit_r0073rr0r.egg-info/PKG-INFO
 src/skrit_r0073rr0r.egg-info/SOURCES.txt
 src/skrit_r0073rr0r.egg-info/dependency_links.txt
 src/skrit_r0073rr0r.egg-info/top_level.txt
+tests/test_starovacki.py

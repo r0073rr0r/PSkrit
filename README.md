@@ -24,7 +24,7 @@ pip install -i https://test.pypi.org/simple/ skrit-r0073rr0r
 
 - [ ] Litrovacki
 - [ ] Utrovachki
-- [x] Satrovacki (need upgrade for samoglasnici and serbian letters)
+- [x] Satrovacki
 
 
 ## Example:

@@ -1,6 +1,6 @@
 [project]
 name = "skrit_r0073rr0r"
-version = "0.2.4"
+version = "0.2.5"
 authors = [
   { name="r0073rr0r", email="direktor@кгб.срб" },
 ]
@@ -17,5 +17,5 @@ classifiers = [
 "Homepage" = "https://github.com/r0073rr0r/PSkrit"
 
 [build-system]
-requires = ["setuptools>=61.0"]
+requires = ["setuptools>=61.0","cyrtranslit>=1.1.1"]
 build-backend = "setuptools.build_meta"
